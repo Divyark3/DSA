@@ -20,7 +20,7 @@ class Solution {
             char c = s.charAt(end);
             m2.put(c, m2.getOrDefault(c, 0) + 1);
 
-            while(end-start+1 > n){
+            if(end-start+1 > n){
 
                 char ch = s.charAt(start);
                 m2.put(ch, m2.get(ch) - 1);

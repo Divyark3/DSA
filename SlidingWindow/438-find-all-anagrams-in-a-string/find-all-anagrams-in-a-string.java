@@ -11,6 +11,8 @@ class Solution {
 
         List<Integer> res = new ArrayList<>();
 
+        if(n == 0 || m == 0 || n > m) return res;
+
         for(end=0; end<n; end++){
             char c = p.charAt(end);
             m1.put(c, m1.getOrDefault(c,0) + 1);

@@ -6,7 +6,6 @@ class Solution {
         int min = Integer.MAX_VALUE;
         Arrays.sort(nums);
 
-
         for(int i=0; i<n-2; i++){
 
             int j = i+1;
@@ -29,13 +28,8 @@ class Solution {
                 else{
                     return sum;
                 }
-
-                
             }
         }
         return min;
-
-
-        
     }
 }

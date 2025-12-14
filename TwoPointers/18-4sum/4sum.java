@@ -7,13 +7,13 @@ class Solution {
 
         List<List<Integer>> res = new ArrayList<>();
 
-        for(int i=0; i<n-2; i++){
+        for(int i=0; i<n-1; i++){
             
             if(i>0 && nums[i] == nums[i-1]){
                 continue;
             }
 
-            for(int j = i+1; j<n-1; j++){
+            for(int j = i+1; j<n; j++){
 
                 if(j>i+1 && nums[j] == nums[j-1]){
                     continue;

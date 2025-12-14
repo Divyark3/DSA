@@ -6,7 +6,7 @@ class Solution {
         int w = 0;
         int b = n-1;
 
-        for(int i=0; i<n; i++){
+        for(int red=0; red<n; red++){
 
             if(nums[w] == 0){
                 int temp = nums[w];

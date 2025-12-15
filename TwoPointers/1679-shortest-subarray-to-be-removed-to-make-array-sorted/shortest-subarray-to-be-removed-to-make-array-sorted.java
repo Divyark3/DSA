@@ -17,9 +17,6 @@ class Solution {
             right--;
         }
 
-        if(right == 0) return n;
-
-
         int ans = Math.min(n-left-1, right);
 
         int i=0, j=right;

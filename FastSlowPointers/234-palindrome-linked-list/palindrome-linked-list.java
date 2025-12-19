@@ -38,10 +38,6 @@ class Solution {
             fast = fast.next.next;
         }
 
-        // if(fast!=null){
-        //     slow = slow.next;
-        // }
-
         ListNode rev = reverse(slow.next);
 
         slow.next = null;
